@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+body {
+  margin: 0;
+  background-color: whitesmoke;
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.formItemDelete {
+  color: gray;
+  background-color: transparent;
+}
+.formItemDelete:hover {
+  color: red;
+}
+
+.formItemEditStyle {
+  color: gray;
+  background-color: transparent;
+}
+
+.formItemEditStyle:hover {
+  color: #6366f1;
+}
+
+.editButtonSaveStyle {
+  color: gray;
+  background-color: transparent;
+}
+
+.editButtonSaveStyle:hover {
+  color: lightgreen;
+}
+
+.editButtonCancelStyle {
+  color: gray;
+  background-color: transparent;
+}
+
+.editButtonCancelStyle:hover {
+  color: red;
+}
+
+.formCreateTaskInputStyle {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.formCreateTaskInputStyle:focus {
+  border: 1px solid #6366f1;
+  outline: none;
+}
+
+.editInputStyle {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.editInputStyle:focus {
+  border: 1px solid #6366f1;
+  outline: none;
+}
+
+.menuButtonStyle:focus {
+  outline: none;
+}
